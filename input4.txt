@@ -1,0 +1,20 @@
+<ss:Workbook><ss:Styles>
+<ss:Style  ss:ID="123string"></ss:Style>
+<ss:Style  ss:ID="1234string"></ss:Style>
+</ss:Styles>
+<ss:Styles>
+<ss:Style  ss:ID="123string"></ss:Style>
+<ss:Style  ss:ID="1234string"></ss:Style>
+</ss:Styles>
+<ss:Worksheet ss:Name="somestring">
+<ss:Table   ss:ExpandedColumnCount="3" >
+<ss:Column  ss:StyleID="somestring"/>
+<ss:Row>
+<ss:Cell>
+<ss:Data  ss:Type="String">somestring</ss:Data>
+<ss:Data  ss:Type="incorrect_input"></ss:Data>
+</ss:Cell>
+</ss:Row>
+</ss:Table>
+</ss:Worksheet>
+</ss:Workbook>
